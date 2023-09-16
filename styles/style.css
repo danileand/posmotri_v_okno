@@ -82,6 +82,8 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .result__video-container {
@@ -160,7 +162,6 @@ ol {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
-  /* outline-offset: 1px; */
 }
 
 .content__video-card-title {
@@ -231,7 +232,7 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
